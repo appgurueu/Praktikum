@@ -17,8 +17,8 @@ Alles zum Rotationsspiel, inklusive eines Verweises auf die `Webseite`. Weiterhi
 Zum Lower Left Anchored Rectangle Packing (LLARP). Ebenfalls mit Verweis auf `Webseite`.
 Außerdem Bildschirmfotos in `Bilder` und (profane) `Feststellungen`.
 
-### `Webseite`
+### `docs` / `Webseite`
 
-Insgesamt-Webseite für das Praktikum. `index.html` enthält eine Art "Verzeichnis" (der beiden Projekte). In `Rotationsspiel` bzw. `LLARP` finden sich die Unterseiten, jeweils auch mit `index.html`. Auf diese zeigen die `Webseite`-Verweise der beiden Projektordner. `docs` ist nur ein Verweis auf die Seite für GitHub Pages.
+Insgesamt-Webseite für das Praktikum. `index.html` enthält eine Art "Verzeichnis" (der beiden Projekte). In `Rotationsspiel` bzw. `LLARP` finden sich die Unterseiten, jeweils auch mit `index.html`. Auf diese zeigen die `Webseite`-Verweise der beiden Projektordner. `Webseite` ist nur ein Verweis `docs`.
 
 Online verfügbar unter [`https://appgurueu.github.com/Praktikum/`](https://appgurueu.github.com/Praktikum/)
