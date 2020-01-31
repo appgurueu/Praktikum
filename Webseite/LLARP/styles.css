@@ -1,0 +1,19 @@
+.unit-square {
+    position: relative;
+    width: 45vh !important;
+    height: 45vh !important;
+    background-color: white;
+    border: 0.1em solid black;
+}
+
+.rect {
+    position: absolute;
+}
+
+.point {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 2px; height: 2px; margin:-1px;
+    z-index: 10000;
+}

@@ -1,0 +1,77 @@
+.board {
+    -moz-transition: all 2000ms ease;
+    -o-transition: all 2000ms ease;
+    -webkit-transition: all 2000ms ease;
+    transition: all 2000ms ease;
+}
+.rotate {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: gray;
+    border-radius: 50%;
+    margin: -5em;
+    height: 10em;
+    width: 10em;
+}
+
+.outer-board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6em;
+    height: 14em;
+    width: 14em;
+    border-radius: 50%;
+    background-color: darkgray !important;
+}
+
+.pin, .slot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    margin: -0.5em;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thing-selected {
+    box-shadow: 0px 0px 0.2em 0.2em orange;
+}
+
+.pin-special {
+    background-color: blue !important;
+}
+
+.pin-white {
+    background-color: whitesmoke !important;
+}
+
+.slot, .pinslot {
+    background-color: black !important;
+}
+
+.outer-board:not(.inactive) > div > .slot:not(.slot-special) {
+    cursor: pointer !important;
+}
+
+.outer-board:not(.inactive) > div > .slot:hover:not(.slot-special){
+    box-shadow: 0px 0px 0.2em 0.2em orange;
+}
+
+div.slot-special {
+    background-color: blue !important;
+}
