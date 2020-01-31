@@ -21,4 +21,4 @@ Außerdem Bildschirmfotos in `Bilder` und (profane) `Feststellungen`.
 
 Insgesamt-Webseite für das Praktikum. `index.html` enthält eine Art "Verzeichnis" (der beiden Projekte). In `Rotationsspiel` bzw. `LLARP` finden sich die Unterseiten, jeweils auch mit `index.html`. Auf diese zeigen die `Webseite`-Verweise der beiden Projektordner. `Webseite` ist nur ein Verweis `docs`.
 
-Online verfügbar unter [`https://appgurueu.github.com/Praktikum/`](https://appgurueu.github.com/Praktikum/)
+Online verfügbar unter [`https://appgurueu.github.io/Praktikum/`](https://appgurueu.github.io/Praktikum/)
